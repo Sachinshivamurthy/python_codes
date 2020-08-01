@@ -1,0 +1,11 @@
+a=1
+b=0
+N=int(input())
+while(a<N):
+    a=a+b**2
+    if(a<N):
+        if(b%2==0):
+            print(a)
+        else:
+            print(a*-1)
+    b=b+1

@@ -1,0 +1,10 @@
+a=5
+b=0
+c=1
+N=int(input())
+while(b<N):
+    a=a+((30*c)+b**2)
+    if(a<N):
+        print(a)
+    c=c+1
+    b=b+1

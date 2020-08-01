@@ -1,0 +1,5 @@
+n=input("enter string: ")
+a=n.count("s")
+print(a)
+b=len(n)
+print(b)
